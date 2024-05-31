@@ -23,19 +23,19 @@ Ensure you have `npm` installed on your machine to handle dependencies. You can 
    Start by cloning the project to your local machine:
    ```bash
    git clone https://github.com/irisvlack/mindscape.git
-Navigate to the Project Directory
+   
+2. **Navigate to the Project Directory**
 
 Change into the project directory:
 
-bash
-Copy code
+```bash
 cd Chat
-Install Dependencies
+
+3. **Install Dependencies**
 
 Install all required dependencies for the project:
 
-bash
-Copy code
+```bash
 npm install @google/generative-ai express
 npm i --save-dev nodemon dotenv
 Running the Application
