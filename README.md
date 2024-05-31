@@ -23,3 +23,44 @@ Ensure you have `npm` installed on your machine to handle dependencies. You can 
    Start by cloning the project to your local machine:
    ```bash
    git clone https://github.com/irisvlack/mindscape.git
+Navigate to the Project Directory
+
+Change into the project directory:
+
+bash
+Copy code
+cd Chat
+Install Dependencies
+
+Install all required dependencies for the project:
+
+bash
+Copy code
+npm install @google/generative-ai express
+npm i --save-dev nodemon dotenv
+Running the Application
+To start the server and run Mindscape locally, execute the following command in the terminal:
+
+bash
+Copy code
+node server.js
+This command initiates the chatbot server, making it accessible via http://localhost:3000 or another configured local host and port.
+
+Environment Setup
+Before running the application, you must configure your environment variables:
+
+plaintext
+Copy code
+GOOGLE_API_KEY=<Your-Google-API-Key>
+Add this variable to a .env file in the root of your project directory to ensure your API key remains secure.
+
+Contributing
+We encourage contributions from the community, whether it's a bug fix, a new feature, or an improvement in documentation. Here's how you can contribute:
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
